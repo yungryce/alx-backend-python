@@ -17,7 +17,6 @@ __all__ = [
     "memoize",
 ]
 
-
 def access_nested_map(nested_map: Mapping, path: Sequence) -> Any:
     """Access nested map with key path.
     Parameters
@@ -36,9 +35,10 @@ def access_nested_map(nested_map: Mapping, path: Sequence) -> Any:
         if not isinstance(nested_map, Mapping):
             raise KeyError(key)
         nested_map = nested_map[key]
+        # print(f"Accessing key: {key}, New nested_map: {nested_map}")
 
     return nested_map
-
+# print(access_nested_map({"a": {"b": {"c": 1}}}, ["a", "b", "c"]))
 
 def get_json(url: str) -> Dict:
     """Get JSON from remote URL.
