@@ -1,0 +1,118 @@
+{
+  "project_identity": {
+    "name": "0x03. Unittests and Integration Tests",
+    "type": "educational",
+    "scope": "Comprehensive testing methodologies in Python",
+    "is_independent": false,
+    "version": "1.0",
+    "related_versions": [],
+    "description": "Master Python testing with unittest framework, including unit testing, integration testing, mocking, patching, and parameterized testing for robust code quality assurance."
+  },
+  "tech_stack": {
+    "primary": ["Python 3.7+", "unittest"],
+    "secondary": ["requests", "typing"],
+    "key_libraries": ["unittest", "unittest.mock", "parameterized", "requests"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "Unit Testing with unittest",
+      "Integration Testing",
+      "Mocking and Patching",
+      "Parameterized Testing",
+      "Test Fixtures and Setup",
+      "Exception Testing",
+      "Mock Object Creation",
+      "Property Mocking",
+      "HTTP Request Testing",
+      "Test Coverage Analysis",
+      "Test-Driven Development",
+      "Continuous Testing"
+    ],
+    "domain": [
+      "Software Testing",
+      "Quality Assurance",
+      "Test Automation",
+      "Code Reliability",
+      "Testing Best Practices"
+    ]
+  },
+  "components": {
+    "unit_testing": {
+      "type": "testing",
+      "path": "/test_utils.py",
+      "description": "Unit tests for utility functions with parameterized testing"
+    },
+    "mocking": {
+      "type": "testing",
+      "path": "/test_client.py",
+      "description": "Mocking external dependencies and HTTP requests"
+    },
+    "integration_testing": {
+      "type": "testing",
+      "path": "/test_client.py",
+      "description": "Integration tests with fixtures and property mocking"
+    },
+    "test_utilities": {
+      "type": "support",
+      "path": "/utils.py, /client.py, /fixtures.py",
+      "description": "Code under test and test fixtures"
+    }
+  },
+  "progression": {},
+  "topics": [
+    "unit-testing",
+    "integration-testing",
+    "mocking",
+    "patching",
+    "parameterized-testing",
+    "test-fixtures",
+    "exception-testing",
+    "test-driven-development",
+    "code-coverage",
+    "testing-best-practices"
+  ],
+  "skillLevel": "intermediate to advanced",
+  "projectStructure": {
+    "test_files": 3,
+    "complexity": "comprehensive testing patterns",
+    "methodology": "TDD and quality assurance focus"
+  },
+  "outcomes": {
+    "technicalSkills": [
+      "Write comprehensive unit tests with unittest",
+      "Create integration tests for complex systems",
+      "Use mocking to isolate code under test",
+      "Implement parameterized tests for multiple scenarios",
+      "Mock external dependencies and HTTP requests",
+      "Test exception handling and error cases",
+      "Set up test fixtures and teardown procedures",
+      "Measure and improve test coverage",
+      "Apply test-driven development practices",
+      "Debug and maintain test suites effectively"
+    ],
+    "softSkills": [
+      "Quality-focused development mindset",
+      "Systematic testing approach",
+      "Risk assessment for code changes",
+      "Attention to edge cases and error conditions",
+      "Continuous improvement mindset"
+    ]
+  },
+  "prerequisites": [
+    "Completion of previous Python backend projects",
+    "Strong understanding of Python functions and classes",
+    "Knowledge of HTTP requests and external APIs",
+    "Familiarity with Python modules and imports"
+  ],
+  "associatedProjects": {
+    "previous": "0x02-python_async_comprehension",
+    "next": "",
+    "related": ["0x00-python_variable_annotations", "alx-backend-user-data"]
+  },
+  "files": {
+    "authors_file": "../../AUTHORS",
+    "license_file": "../../LICENSE.txt",
+    "readme_file": "README.md",
+    "requirements_file": "../../requirements.txt"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "project_identity": {
+    "name": "0x02. Python - Async Comprehension",
+    "type": "educational",
+    "scope": "Python async comprehensions and generators for efficient data processing",
+    "is_independent": false,
+    "version": "1.0",
+    "related_versions": [],
+    "description": "Master advanced asynchronous patterns including async generators, async comprehensions, and parallel execution for efficient asynchronous data processing."
+  },
+  "tech_stack": {
+    "primary": ["Python 3.7+", "asyncio"],
+    "secondary": ["typing", "random", "time"],
+    "key_libraries": ["asyncio", "typing", "random", "time"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "Async Generators",
+      "Async Comprehensions",
+      "Parallel Async Execution",
+      "Performance Measurement",
+      "Async Iterator Protocol",
+      "Generator Type Annotations",
+      "Concurrent Data Processing",
+      "Async Data Streams",
+      "Runtime Optimization",
+      "Advanced Async Patterns"
+    ],
+    "domain": [
+      "Advanced Async Programming",
+      "Data Stream Processing",
+      "Performance Optimization",
+      "Concurrent Data Handling"
+    ]
+  },
+  "components": {
+    "async_generators": {
+      "type": "generators",
+      "path": "/0-async_generator.py",
+      "description": "Async generator yielding random numbers with delays"
+    },
+    "async_comprehensions": {
+      "type": "comprehensions",
+      "path": "/1-async_comprehension.py",
+      "description": "Async comprehension collecting data from async generator"
+    },
+    "parallel_execution": {
+      "type": "performance",
+      "path": "/2-measure_runtime.py",
+      "description": "Parallel execution and runtime measurement of async comprehensions"
+    }
+  },
+  "progression": {},
+  "topics": [
+    "async-generators",
+    "async-comprehensions",
+    "parallel-execution",
+    "performance-measurement",
+    "async-iterators",
+    "data-streams",
+    "concurrent-processing",
+    "async-patterns"
+  ],
+  "skillLevel": "intermediate to advanced",
+  "projectStructure": {
+    "exercises": 3,
+    "complexity": "advanced async patterns",
+    "focus": "efficient async data processing"
+  },
+  "outcomes": {
+    "technicalSkills": [
+      "Create and use async generators effectively",
+      "Write async comprehensions for data collection",
+      "Execute async operations in parallel",
+      "Measure and optimize async performance",
+      "Handle async data streams efficiently",
+      "Implement advanced async iteration patterns",
+      "Optimize concurrent data processing",
+      "Debug complex async generator issues",
+      "Design efficient async data pipelines"
+    ],
+    "softSkills": [
+      "Advanced problem-solving with async patterns",
+      "Performance optimization mindset",
+      "Efficient data processing thinking",
+      "Parallel execution strategy"
+    ]
+  },
+  "prerequisites": [
+    "Completion of Python Async Functions project",
+    "Understanding of generators and iterators",
+    "Knowledge of list comprehensions",
+    "Familiarity with async/await patterns"
+  ],
+  "associatedProjects": {
+    "previous": "0x01-python_async_function",
+    "next": "0x03-Unittests_and_integration_tests",
+    "related": ["0x01-python_async_function"]
+  },
+  "files": {
+    "authors_file": "../../AUTHORS",
+    "license_file": "../../LICENSE.txt",
+    "readme_file": "README.md",
+    "requirements_file": "../../requirements.txt"
+  }
+}

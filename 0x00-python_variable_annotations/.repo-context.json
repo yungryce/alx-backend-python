@@ -1,0 +1,113 @@
+{
+  "project_identity": {
+    "name": "0x00. Python - Variable Annotations",
+    "type": "educational",
+    "scope": "Python type hints and variable annotations for static analysis",
+    "is_independent": false,
+    "version": "1.0",
+    "related_versions": [],
+    "description": "Master Python's type annotation system, including variable annotations, function annotations, and complex types for improved code clarity and static analysis."
+  },
+  "tech_stack": {
+    "primary": ["Python 3.7+"],
+    "secondary": ["typing module"],
+    "key_libraries": ["mypy", "typing"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "Variable Type Annotations",
+      "Function Type Annotations",
+      "Complex Type Definitions",
+      "Union and Optional Types",
+      "Generic Types",
+      "Type Aliases",
+      "Static Type Checking",
+      "mypy Integration",
+      "Duck Typing vs Static Typing",
+      "Type Safety Validation"
+    ],
+    "domain": [
+      "Code Quality",
+      "Static Analysis",
+      "Python Best Practices",
+      "Type Safety"
+    ]
+  },
+  "components": {
+    "basic_annotations": {
+      "type": "fundamentals",
+      "path": "/0-add.py, /1-concat.py, /2-floor.py",
+      "description": "Basic function annotations with primitive types"
+    },
+    "complex_types": {
+      "type": "advanced",
+      "path": "/5-sum_list.py, /6-sum_mixed_list.py, /7-to_kv.py",
+      "description": "Complex type annotations with lists, tuples, and unions"
+    },
+    "generic_functions": {
+      "type": "advanced",
+      "path": "/8-make_multiplier.py, /9-element_length.py",
+      "description": "Generic function types and callable annotations"
+    },
+    "type_validation": {
+      "type": "quality",
+      "path": "/100-safe_first_element.py, /101-safely_get_value.py, /102-type_checking.py",
+      "description": "Type validation, duck typing, and mypy integration"
+    }
+  },
+  "progression": {},
+  "topics": [
+    "type-hints",
+    "variable-annotations",
+    "function-annotations",
+    "complex-types",
+    "union-types",
+    "optional-types",
+    "generic-types",
+    "static-analysis",
+    "mypy",
+    "duck-typing"
+  ],
+  "skillLevel": "beginner to intermediate",
+  "projectStructure": {
+    "exercises": 12,
+    "complexity": "progressive from basic to advanced types",
+    "validation": "mypy static type checking"
+  },
+  "outcomes": {
+    "technicalSkills": [
+      "Annotate variables with appropriate types",
+      "Write type-safe function signatures",
+      "Use complex types like Union, Optional, and Generic",
+      "Create type aliases for complex structures",
+      "Validate code with mypy static type checker",
+      "Understand duck typing vs static typing",
+      "Handle type safety in dynamic contexts",
+      "Write self-documenting code with type hints",
+      "Debug type-related issues effectively"
+    ],
+    "softSkills": [
+      "Code clarity and documentation mindset",
+      "Attention to detail in type specifications",
+      "Systematic approach to type safety",
+      "Understanding of code maintainability"
+    ]
+  },
+  "prerequisites": [
+    "Basic Python syntax and functions",
+    "Understanding of Python data types",
+    "Familiarity with function definitions",
+    "Basic knowledge of Python modules"
+  ],
+  "associatedProjects": {
+    "previous": "",
+    "next": "0x01-python_async_function",
+    "related": ["0x03-Unittests_and_integration_tests"]
+  },
+  "files": {
+    "authors_file": "../../AUTHORS",
+    "license_file": "../../LICENSE.txt",
+    "readme_file": "README.md",
+    "requirements_file": "../../requirements.txt"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "project_identity": {
+    "name": "0x01. Python - Async",
+    "type": "educational",
+    "scope": "Python asynchronous programming and concurrency",
+    "is_independent": false,
+    "version": "1.0",
+    "related_versions": [],
+    "description": "Master Python's asynchronous programming model with async/await syntax, coroutines, event loops, and concurrent execution patterns."
+  },
+  "tech_stack": {
+    "primary": ["Python 3.7+", "asyncio"],
+    "secondary": ["random", "time"],
+    "key_libraries": ["asyncio", "random", "time"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "Async/Await Syntax",
+      "Coroutine Functions",
+      "Event Loop Management",
+      "Concurrent Execution",
+      "Task Creation and Management",
+      "Asynchronous Delays",
+      "Performance Measurement",
+      "Async Function Composition",
+      "Random Async Operations",
+      "Concurrency Patterns"
+    ],
+    "domain": [
+      "Asynchronous Programming",
+      "Concurrency",
+      "Performance Optimization",
+      "Backend Systems"
+    ]
+  },
+  "components": {
+    "basic_async": {
+      "type": "fundamentals",
+      "path": "/0-basic_async_syntax.py",
+      "description": "Basic async function with random delays"
+    },
+    "concurrent_execution": {
+      "type": "concurrency",
+      "path": "/1-concurrent_coroutines.py, /2-measure_runtime.py",
+      "description": "Concurrent execution and runtime measurement"
+    },
+    "task_management": {
+      "type": "advanced",
+      "path": "/3-tasks.py, /4-tasks.py",
+      "description": "Task creation and management with asyncio.create_task"
+    }
+  },
+  "progression": {},
+  "topics": [
+    "async-await",
+    "coroutines",
+    "event-loops",
+    "concurrency",
+    "asyncio",
+    "task-management",
+    "performance-measurement",
+    "asynchronous-delays",
+    "concurrent-execution"
+  ],
+  "skillLevel": "intermediate",
+  "projectStructure": {
+    "exercises": 5,
+    "complexity": "progressive from basic async to task management",
+    "focus": "practical async programming patterns"
+  },
+  "outcomes": {
+    "technicalSkills": [
+      "Write asynchronous functions with async/await",
+      "Understand and use coroutines effectively",
+      "Execute multiple coroutines concurrently",
+      "Measure async function performance",
+      "Create and manage asyncio tasks",
+      "Handle asynchronous delays and timing",
+      "Compose complex async operations",
+      "Optimize concurrent execution patterns",
+      "Debug asynchronous code effectively"
+    ],
+    "softSkills": [
+      "Concurrent thinking and design",
+      "Performance consciousness",
+      "System efficiency mindset",
+      "Parallel processing understanding"
+    ]
+  },
+  "prerequisites": [
+    "Completion of Variable Annotations project",
+    "Strong Python function knowledge",
+    "Understanding of generators and iterators",
+    "Basic knowledge of timing and performance"
+  ],
+  "associatedProjects": {
+    "previous": "0x00-python_variable_annotations",
+    "next": "0x02-python_async_comprehension",
+    "related": ["0x02-python_async_comprehension"]
+  },
+  "files": {
+    "authors_file": "../../AUTHORS",
+    "license_file": "../../LICENSE.txt",
+    "readme_file": "README.md",
+    "requirements_file": "../../requirements.txt"
+  }
+}

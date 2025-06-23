@@ -1,0 +1,139 @@
+{
+  "project_identity": {
+    "name": "alx-backend-python",
+    "type": "educational",
+    "scope": "backend",
+    "is_independent": true,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Comprehensive ALX backend Python curriculum covering advanced Python development practices including type annotations, asynchronous programming, async comprehensions, and comprehensive testing methodologies for modern backend applications.",
+    "curriculum_stage": "specialization"
+  },
+  "tech_stack": {
+    "primary": ["Python 3.7+"],
+    "secondary": ["asyncio", "unittest", "typing"],
+    "key_libraries": ["requests", "mypy", "pycodestyle", "parameterized", "unittest.mock"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "Type Annotations and Hints",
+      "Static Type Checking",
+      "Asynchronous Programming",
+      "Coroutines and Event Loops",
+      "Async Generators and Comprehensions",
+      "Unit Testing with unittest",
+      "Integration Testing",
+      "Mocking and Patching",
+      "Parameterized Testing",
+      "Test-Driven Development",
+      "Code Quality and Linting"
+    ],
+    "domain": [
+      "Backend Development",
+      "Python Advanced Features",
+      "Testing Methodologies",
+      "Asynchronous Systems",
+      "Code Quality Assurance"
+    ]
+  },
+  "components": {
+    "variable_annotations": {
+      "type": "fundamentals",
+      "path": "/0x00-python_variable_annotations",
+      "description": "Type hints, annotations, and static analysis with mypy"
+    },
+    "async_functions": {
+      "type": "concurrency",
+      "path": "/0x01-python_async_function",
+      "description": "Asynchronous functions, coroutines, and concurrent execution"
+    },
+    "async_comprehensions": {
+      "type": "advanced_async",
+      "path": "/0x02-python_async_comprehension",
+      "description": "Async generators, comprehensions, and advanced async patterns"
+    },
+    "testing": {
+      "type": "quality_assurance",
+      "path": "/0x03-Unittests_and_integration_tests",
+      "description": "Unit testing, integration testing, mocking, and TDD practices"
+    }
+  },
+  "progression": {
+    "stage_1": {
+      "description": "Type safety and code clarity with annotations",
+      "tech_stack": ["Python", "mypy", "typing"],
+      "features": ["Variable Annotations", "Function Annotations", "Complex Types", "Type Checking"]
+    },
+    "stage_2": {
+      "description": "Asynchronous programming fundamentals",
+      "tech_stack": ["Python", "asyncio", "async/await"],
+      "features": ["Async Functions", "Coroutines", "Event Loops", "Concurrent Execution"]
+    },
+    "stage_3": {
+      "description": "Advanced async patterns and data processing",
+      "tech_stack": ["Python", "asyncio", "async generators"],
+      "features": ["Async Generators", "Async Comprehensions", "Performance Measurement"]
+    },
+    "stage_4": {
+      "description": "Testing methodologies and quality assurance",
+      "tech_stack": ["Python", "unittest", "mock", "parameterized"],
+      "features": ["Unit Testing", "Integration Testing", "Mocking", "Parameterized Tests"]
+    }
+  },
+  "topics": [
+    "type-annotations",
+    "static-analysis",
+    "asynchronous-programming",
+    "coroutines",
+    "async-generators",
+    "async-comprehensions",
+    "unit-testing",
+    "integration-testing",
+    "mocking",
+    "test-driven-development"
+  ],
+  "skillLevel": "intermediate to advanced",
+  "projectStructure": {
+    "modules": 4,
+    "progression": "linear with increasing complexity",
+    "focus": "backend development and testing"
+  },
+  "outcomes": {
+    "technicalSkills": [
+      "Write type-safe Python code with annotations",
+      "Implement asynchronous and concurrent programs",
+      "Build efficient async data processing systems",
+      "Create comprehensive test suites",
+      "Use mocking and patching for isolated testing",
+      "Apply test-driven development practices",
+      "Perform static type checking with mypy",
+      "Measure and optimize async performance",
+      "Handle complex async patterns and generators",
+      "Ensure code quality through testing"
+    ],
+    "softSkills": [
+      "Code quality consciousness",
+      "Testing mindset",
+      "Performance optimization thinking",
+      "Systematic problem solving",
+      "Documentation and clarity focus"
+    ]
+  },
+  "prerequisites": [
+    "Strong Python programming fundamentals",
+    "Understanding of object-oriented programming",
+    "Basic knowledge of functions and data structures",
+    "Familiarity with Python standard library"
+  ],
+  "associatedProjects": {
+    "previous": "alx-higher_level_programming",
+    "next": "alx-backend-user-data",
+    "related": ["alx-backend", "alx-files_manager"]
+  },
+  "files": {
+    "authors_file": "",
+    "license_file": "",
+    "readme_file": "README.md",
+    "requirements_file": "requirements.txt"
+  }
+}
